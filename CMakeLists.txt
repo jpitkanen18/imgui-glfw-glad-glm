@@ -4,7 +4,7 @@ include(FetchContent)
 
 project(imgui-glfw-glad-glm VERSION 4.1.0)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 23)
 
 set(IGG_COMPONENTS "IMGUI;GLFW;GLAD;GLM" CACHE STRING "The components to import and build")
 
